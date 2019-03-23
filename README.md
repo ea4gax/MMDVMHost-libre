@@ -1,4 +1,4 @@
-#https://ea8ii.weebly.com/easy-dvmega.html<br>
+#<a href="https://ea8ii.weebly.com/easy-dvmega.html" target="_blank">https://ea8ii.weebly.com/easy-dvmega.html</a><br>
 #MODO LIBRE EA8II - EDUARDO<br>
 #SI ACTUALIZAS EL MMDVMHOST PERDERAS EL MODO LIBRE.<br>
 #DO NOT UPDATE THE MMDVMHOST VERSION TO PRESERVE THIS MODO LIBRE ( FREE DMR MODE ).<br>
