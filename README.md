@@ -1,10 +1,19 @@
-#MODO LIBRE EA8II - EDUARDO <br>
-#SI ACTUALIZAS EL MMDVMHOST PERDERAS EL MODO LIBRE. <br>
-#DO NOT UPDATE THE MMDVMHOST VERSION TO PRESERVE THIS MODO LIBRE ( FREE DMR MODE ).<br>
-Dar permisos neceasrios para su funcionamiento: <br>
-cd MMDVMHost-libre <br>
-sudo chmod 755 MMDVMHost <br>
-Si fuera necesario le dariamos permisos root: sudo chown root:root -R /home/pi/libre/MMDVMHost-libre/MMDVMHost <br>
-O simplemente 755: <br>
-sudo chmod 755 /home/pi/libre/MMDVMHost-libre/MMDVMHost/ <br> # A la carpeta
-sudo chmod 755 /home/pi/libre/MMDVMHost-libre/MMDVMHost/*.* A todo el contenido de la misma.
+These are the source files for building the MMDVMHost, the program that interfaces to the MMDVM or DVMega on the one side, and a suitable network on the other. On the D-Star side the MMDVMHost interfaces with the ircDDB Gateway, on DMR it connects to Brand Meister, DMR+, and HB Link, on System Fusion it connects to the YSF Gateway. On P25 it connects to the P25NX network.
+
+It supports D-Star, DMR, P25 Phase 1, and System Fusion.
+
+It builds on 32-bit and 64-bit Linux as well as on Windows using VS2015 on x86 and x64. It can optionally control various Displays. Currently these are:
+
+- HD44780 (sizes 2x16, 2x40, 4x16, 4x20)
+	- Support for HD44780 via 4 bit GPIO connection (user selectable pins)
+	- Adafruit 16x2 LCD+Keypad Kits (I2C)
+	- Connection via PCF8574 GPIO Extender (I2C)
+- Nextion TFTs (sizes 2.4", 2.8", 3.2" and 3.5")
+- TFT displays sold by Hobbytronics in UK
+- OLED 128x64 (SSD1306)
+
+The HD44780 displays are integrated with wiringPi for Raspberry Pi based platforms. The other displays can be directly connected to the UART on Raspberry Pis or with FT-232RL modules to any USB port.
+
+The OLED display needs a extra lib see OLED.md
+
+This software is licenced under the GPL v2 and is intended for amateur and educational use only. Use of this software for commercial purposes is strictly forbidden.
