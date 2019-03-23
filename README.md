@@ -5,7 +5,6 @@
 cd /home/pi/libre/MMDVMHost-libre <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/ <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/MMDVMHost <br>
-sudo chmod 755 /home/pi/libre/MMDVMHost-libre/*.* <br>
 OR:<br>
 sudo chown root:root -R /home/pi/libre/MMDVMHost-libre/ <br>
  
