@@ -1,3 +1,14 @@
+#MODO LIBRE EA8II - EDUARDO<br>
+#SI ACTUALIZAS EL MMDVMHOST PERDERAS EL MODO LIBRE.<br>
+#DO NOT UPDATE THE MMDVMHOST VERSION TO PRESERVE THIS MODO LIBRE ( FREE DMR MODE ).<br>
+
+cd /home/pi/libre/MMDVMHost-libre
+sudo chmod 755 /home/pi/libre/MMDVMHost-libre/ <br>
+sudo chmod 755 /home/pi/libre/MMDVMHost-libre/MMDVMHost <br>
+sudo chmod 755 /home/pi/libre/MMDVMHost-libre/*.* <br>
+OR:<br>
+sudo chown root:root -R /home/pi/libre/MMDVMHost-libre/ <br>
+ 
 These are the source files for building the MMDVMHost, the program that interfaces to the MMDVM or DVMega on the one side, and a suitable network on the other. On the D-Star side the MMDVMHost interfaces with the ircDDB Gateway, on DMR it connects to Brand Meister, DMR+, and HB Link, on System Fusion it connects to the YSF Gateway. On P25 it connects to the P25NX network.
 
 It supports D-Star, DMR, P25 Phase 1, and System Fusion.
