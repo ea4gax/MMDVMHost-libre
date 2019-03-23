@@ -2,7 +2,7 @@
 #SI ACTUALIZAS EL MMDVMHOST PERDERAS EL MODO LIBRE.<br>
 #DO NOT UPDATE THE MMDVMHOST VERSION TO PRESERVE THIS MODO LIBRE ( FREE DMR MODE ).<br>
 
-cd /home/pi/libre/MMDVMHost-libre
+cd /home/pi/libre/MMDVMHost-libre <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/ <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/MMDVMHost <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/*.* <br>
