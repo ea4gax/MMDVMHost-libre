@@ -2,7 +2,9 @@
 #MODO LIBRE EA8II - EDUARDO<br>
 #SI ACTUALIZAS EL MMDVMHOST PERDERAS EL MODO LIBRE.<br>
 #DO NOT UPDATE THE MMDVMHOST VERSION TO PRESERVE THIS MODO LIBRE ( FREE DMR MODE ).<br>
-
+cd /home/pi/ <br>
+mkdir libre <br>
+git clone https://github.com/ea4gax/MMDVMHost-libre <br>
 cd /home/pi/libre/MMDVMHost-libre <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/ <br>
 sudo chmod 755 /home/pi/libre/MMDVMHost-libre/MMDVMHost <br>
